@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/navigation_description"
+        android:icon="@drawable/museum_icon"
+        android:title="@string/Monuments" />
+
+    <item
+        android:id="@+id/navigation_picture"
+        android:icon="@drawable/photos_icon"
+        android:title="@string/photo"
+        />
+
+    <item
+        android:id="@+id/navigation_comment"
+        android:icon="@drawable/chat_icon"
+        android:title="@string/comment" />
+
+</menu>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">WildChallenge</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="email">Email</string>
+    <string name="password">Mot de passe</string>
+    <string name="sign_in">Se connecter</string>
+    <string name="sign_up">S\'incrire</string>
+    <string name="Sign_up_needed">Pas encore de compte? Clique ici pour t\'inscire !</string>
+    <string name="title_activity_useless">Useless</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="nickName">pseudonyme</string>
+    <string name="loading">Chargement...</string>
+    <string name="log_out">Déconnexion</string>
+    <string name="profile">Profile</string>
+</resources>

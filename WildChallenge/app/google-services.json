@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "497284588627",
+    "firebase_url": "https://wildchallenge-bdda6.firebaseio.com",
+    "project_id": "wildchallenge-bdda6",
+    "storage_bucket": "wildchallenge-bdda6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:497284588627:android:7df8d22a7a357e14",
+        "android_client_info": {
+          "package_name": "com.ab.wildchallenge"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "497284588627-cqh44b9ekn06igctsm9b1cp57sq3p0ta.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ab.wildchallenge",
+            "certificate_hash": "c60e814deeb425de4cbf771af70c48caa07e61dd"
+          }
+        },
+        {
+          "client_id": "497284588627-9crvtm7f5las5aoig8ispuvco2iv18ns.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUsLnFciVfiu5cYeOZIawghT6oU2g89LA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "497284588627-9crvtm7f5las5aoig8ispuvco2iv18ns.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

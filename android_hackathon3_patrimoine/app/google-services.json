@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "441732165267",
+    "firebase_url": "https://androidhackathon3patrimoine.firebaseio.com",
+    "project_id": "androidhackathon3patrimoine",
+    "storage_bucket": "androidhackathon3patrimoine.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:441732165267:android:1946f16dcf1e430e",
+        "android_client_info": {
+          "package_name": "patrimoine.wcs.fr.toulousemonuments"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "441732165267-0djrqukjcfoqhhu06t87b5o2gifgq495.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "patrimoine.wcs.fr.toulousemonuments",
+            "certificate_hash": "63c8f976651dbcf6ad6d1ce7ce36383cec68c2fd"
+          }
+        },
+        {
+          "client_id": "441732165267-klpqsh6rlbmq9hulntnoqmkert3mre90.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtRD2zYU0ivYfUJwDN2OXb4m4_ehmoR9U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "441732165267-klpqsh6rlbmq9hulntnoqmkert3mre90.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,94 @@
+<resources>
+    <string name="app_name">Matterless</string>
+
+
+    <!-- MainActivity -->
+
+    <string name="buttonConfigureEventsText">Gérer mes événements</string>
+    <string name="buttonMyProfileText">Mon profil</string>
+    <string name="authentication_needed">"Clique d'abord sur MON PROFIL pour t'authentifier"</string>
+
+    <!-- MessageListActivity -->
+
+    <string name="textViewMyEventsText">Mes événements</string>
+    <string name="buttonAddEventText">Ajouter un événement</string>
+
+    <!-- MessageSettingsActivity -->
+
+    <string name="textViewMyEventsSettingsText">Créér ton événement</string>
+    <string name="textViewMesageContentDescriptionText">Entre le message que tu souhaites ci dessous, tu peux ajouter des liens vers des images, des vidéos, des GIFs animés, lâche-toi !!</string>
+    <string name="editTextMessageContentHintText">Message</string>
+    <string name="editTextNameHint">Choisis le nom de ton événement</string>
+    <string name="buttonCreateEventText">Ajouter cet événement</string>
+
+    <string-array name="daysOfWeekArray">
+        <item>Dimanche</item>
+        <item>Lundi</item>
+        <item>Mardi</item>
+        <item>Mercredi</item>
+        <item>Jeudi</item>
+        <item>Vendredi</item>
+        <item>Samedi</item>
+    </string-array>
+
+    <string name="buttonTimePickerText">Heure</string>
+    <string name="buttonSelectDayText">Jours</string>
+
+    <!-- MessageSettingsActivity(Geoloc) -->
+    
+    <string name="Geolocalisation">Choisir/Modifier sa géolocalisation</string>
+
+    <!-- SettingsActivity -->
+
+    <string name="textViewUserNameText">Username</string>
+    <string name="useGeolocSwitchTest">Activer la géolocalisation</string>
+    <string name="buttonLogOutText">Se déconnecter</string>
+    <string name="buttonLogInText">Se connecter</string>
+    <string name="email">Email</string>
+    <string name="toastConnexionFailed">échec de la connexion</string>
+
+    <!-- DetaillActivity -->
+
+    <string name="buttonDelete">Supprimer</string>
+    <string name="buttonModify">Modifier</string>
+    <string name="toast_message_empty">Complète tout les champs ci-dessus</string>
+    <string name="toastComplete">Complete les champs</string>
+    <string name="adbDeleteTitle">Supprimer?</string>
+    <string name="adbDeleteMessage">Es-tu sûr(e) de vouloir supprimer ce message ?</string>
+    <string name="adbDeleteBegButton">Annuler</string>
+    <string name="adbDeletePosButton">Supprimer</string>
+    <string name="buttonPickChannel">Choisi le canal où envoyer le message</string>
+    <string name="checkBpxSignature">Ajouter à mon message la signature de l\'application</string>
+    <string name="ValidateButton">Valider</string>
+    <string name="choseChannelButtonText">Choisis ton canal de discussion</string>
+
+    <string name="logging_success">Connexion réussie</string>
+
+    <string name="tutorialTitle">Tutoriel</string>
+    <string name="buttonTutorialText">Tutoriel</string>
+    <string name="comprisButton">Compris !</string>
+    <string name="IdMattermostTitle">Entre tes identifiants \n Mattermost</string>
+    <string name="passwordtxt">Mot de passe</string>
+
+    <string-array name="tutorialArray">
+        <item>Cet application te permet de créer des messages qui seront envoyés sur le chat Mattermost de ton choix, aux jours et heures que tu auras configuré.</item>
+        <item>Il te faudra posséder un compte Mattermost et te connecter dessus pour utiliser cette application. Une fois connecté, tu peux passer à la suite.</item>
+        <item>Rend toi dans "Gérer Mes Evénements" pour gérer tes messages. Tu peux cliquer sur ceux présents dans la liste pour les modifier ou les supprimer
+ou tu peux en ajouter en cliquant sur le bouton correspondant.</item>
+        <item>Pour te connecter ou te déconnecter de ton compte Mattermost, tu dois te rendre dans "Mon profil".</item>
+        <item>Le gros bouton on/off sur la page d\'accueuil te permet de désactiver ou d\'activer l\'envoi automatique de tous tes messages en un seul clic.</item>
+        <item>N\'hésite pas à être inventif dans tes messages, tu peux y mettre des liens vers du contenu (GIFs, Vidéos, Sites etc), il sera affiché comme si tu l\'avais toi
+même entré directement sur le chat.</item>
+    </string-array>
+    <string name="title_activity_maps">Map</string>
+    <string name="alertDialogMessageTypeTitle">Quel type de message veux-tu créer ?</string>
+    <string name="alertDialogMessageTypeContent">Tu peux créer un message dont l\'envoi sera basé sur ta position ou sur des critère d\'heure et de jours récurents</string>
+    <string name="progress_dialog">Chargement</string>
+    <string name="and_other">autres messages</string>
+    <string name="sended">envoyé</string>
+    <string name="sended_plural"> envoyés</string>
+    <string name="and">et</string>
+    <string name="TermOfuse">Je reconnais être en accord avec les <a href="https://about.mattermost.com/default-terms/">confitions d\'utilisation</a> </string>
+
+
+</resources>

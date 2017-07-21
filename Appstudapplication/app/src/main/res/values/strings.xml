@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Appstud application</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="network_error">Pas de connexion internet.</string>
+    <string name="look_around">Autour de moi</string>
+    <string name="search_places">Recherche</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="loading_photos">Chargement des photos</string>
+</resources>

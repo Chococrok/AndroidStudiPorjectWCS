@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Geolocation</string>
+    <string name="api_key">b9fac89dd90f12573004534ea75a25a0</string>
+    <string name="temp">Temperature</string>
+    <string name="humidity">Humidity</string>
+    <string name="wind_speed">Wind speed</string>
+    <string name="weather">Weather</string>
+    <string name="current_weather">Current weather</string>
+    <string name="current_temp">Current temperature</string>
+
+</resources>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">MonsterWikiLegend</string>
+    <string name="main">Accueil</string>
+    <string name="tapText"> " Touche l'écran pour commencer " </string>
+    <string name="create_start"> "Créer" </string>
+    <string name="go_list">"Liste"</string>
+    <string name="choose_name">Donne un nom à ton monstre:</string>
+    <string name="choose_type">Choisis le type de ton monstre:</string>
+    <string name="choose_features">Choisis les caractéristiques de ton monstre</string>
+    <string name="this_is_features">Les caractéristiques de ton monstre</string>
+    <string name="life">Point de vie</string>
+    <string name="strength">Force</string>
+    <string name="speed">Vitesse</string>
+    <string name="stamina">Endurance</string>
+    <string name="validate_creation">Création</string>
+    <string name="validate_button">Confirmer</string>
+    <string name="type_toast">Entre un nom et choisis le nom de ton monstre !</string>
+    <string name="feature_toast">Tu ne peux pas avoir 0 dans une caractéristique.</string>
+    <string name="too_much_point">Tu as attribué trop de points !</string>
+    <string name="evolve">Faire évoluer ton monstre</string>
+    <string name="back_egg">"renvoyer ton monstre dans l'oeuf"</string>
+</resources>

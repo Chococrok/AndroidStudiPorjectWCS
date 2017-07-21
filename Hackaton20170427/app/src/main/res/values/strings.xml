@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Hackaton20170427</string>
+
+    <!--MainActivity-->
+    <string name="play">Start The Fight</string>
+    <string name="log">Log in</string>
+    <string name="creat">New Account</string>
+    <string name="score">Classement</string>
+    <string name="signup_email">Ton e-mail</string>
+    <string name="signup_password">Ton mot de passe</string>
+    <string name="validate">Valider</string>
+    <string name="buttonInscription">Inscription</string>
+    <string name="sign">Je m\'inscris</string>
+</resources>

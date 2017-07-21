@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MultiAcvtivityQuest</string>
+    <string name="departure">Depature</string>
+    <string name="euros">Euros</string>
+    <string name="hour">Hour</string>
+    <string name="price">Price</string>
+    <string name="propose_an_itinerary">Propose an itinerary</string>
+    <string name="publish">publish</string>
+    <string name="research">Search</string>
+    <string name="researchMain">Search an itinerary</string>
+    <string name="toastResearch">enter required field</string>
+    <string name="toast_new_trajet_done">Your itinerary has been created</string>
+    <string name="disconnection">log out</string>
+    <string name="password">password</string>
+    <string name="email">Email</string>
+    <string name="destination">Destination</string>
+    <string name="date">Date</string>
+    <string name="first_name">Edward</string>
+    <string name="fleche">\"  ==>  \"</string>
+    <string name="last_name">Marmoumou</string>
+    <string name="connexion">Connexion</string>
+    <string name="auth_failed">enter a valid adresse email and password with at least 6 characters</string>
+    <string name="sign_in">log in</string>
+    <string name="sign_up">or sign up</string>
+    <string name="validate">validate</string>
+    <string name="profil">Profil</string>
+    <string name="username">Username</string>
+    <string name="image_URL">Choose your picture</string>
+    <string name="toast_autnetication_needed">You need to be athentified</string>
+    <string name="edit">update</string>
+    <string name="image_choosen">picture OK!</string>
+    <string name="progress_dialog">Loading</string>
+</resources>

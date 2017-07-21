@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@color/swishBlueTransparent"
+    android:orientation="vertical"
+    android:paddingLeft="60dp"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="25dp">
+
+    <TextView
+        android:id="@+id/textViewTeamOneName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0dp"
+        android:layout_marginRight="42dp"
+        android:text="TeamOneName"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textViewTeamOneScore"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewTeamTwoName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginRight="42dp"
+        android:text="TeamTwoName"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textViewSetTwo"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewTeamOneScore"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/round_button"
+        android:gravity="center"
+        android:text="0"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textViewTeamOneSetScore"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewTeamTwoScore"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/round_button"
+        android:gravity="center"
+        android:text="0"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textViewTeamTwoSetScore"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewTeamOneSetScore"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/round_button"
+        android:gravity="center"
+        android:text="0"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textViewTeamTwoName"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewTeamTwoSetScore"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/round_button"
+        android:gravity="center"
+        android:text="0"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <Button
+        android:id="@+id/buttonMinusScoreOne"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/round_button"
+        android:gravity="center"
+        android:text="-"
+        android:textAlignment="gravity"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/buttonMinusSetScoreOne"
+        app:layout_constraintRight_toLeftOf="@+id/buttonPlusScoreOne" />
+
+    <Button
+        android:id="@+id/buttonPlusScoreOne"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/round_button"
+        android:gravity="center"
+        android:text="+"
+        android:textAlignment="gravity"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/buttonPlusSetScoreOne"
+        app:layout_constraintRight_toLeftOf="@+id/textViewTeamOneScore" />
+
+    <Button
+        android:id="@+id/buttonMinusSetScoreOne"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/round_button"
+        android:gravity="center"
+        android:text="-"
+        android:textAlignment="gravity"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textViewTeamTwoName"
+        app:layout_constraintRight_toLeftOf="@+id/buttonPlusSetScoreOne" />
+
+    <Button
+        android:id="@+id/buttonPlusSetScoreOne"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/round_button"
+        android:gravity="center"
+        android:text="+"
+        android:textAlignment="gravity"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textViewTeamTwoName"
+        app:layout_constraintRight_toLeftOf="@+id/textViewTeamOneSetScore" />
+
+    <Button
+        android:id="@+id/buttonMinusScoreTwo"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/round_button"
+        android:gravity="center"
+        android:text="-"
+        android:textAlignment="gravity"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/buttonMinusSetScoreTwo"
+        app:layout_constraintRight_toLeftOf="@+id/buttonPlusScoreTwo" />
+
+    <Button
+        android:id="@+id/buttonPlusScoreTwo"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/round_button"
+        android:gravity="center"
+        android:text="+"
+        android:textAlignment="gravity"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/buttonPlusSetScoreTwo"
+        app:layout_constraintRight_toLeftOf="@+id/textViewTeamTwoScore" />
+
+    <Button
+        android:id="@+id/buttonMinusSetScoreTwo"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/round_button"
+        android:gravity="center"
+        android:text="-"
+        android:textAlignment="gravity"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/buttonPlusSetScoreTwo" />
+
+    <Button
+        android:id="@+id/buttonPlusSetScoreTwo"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/round_button"
+        android:gravity="center"
+        android:text="+"
+        android:textAlignment="gravity"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/textViewTeamTwoSetScore" />
+
+    <Chronometer
+        android:id="@+id/chronometerFootball"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/chrono_shape"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textViewScore"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <Button
+        android:id="@+id/buttonChrono"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginRight="1dp"
+        android:background="@drawable/play_button"
+        android:paddingTop="12dp"
+        app:layout_constraintBottom_toTopOf="@+id/textViewScore"
+        app:layout_constraintRight_toLeftOf="@+id/chronometerFootball" />
+
+    <TextView
+        android:id="@+id/textViewScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginRight="71dp"
+        android:text="score"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textViewTeamOneName"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <Button
+        android:id="@+id/buttonStreeam"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginRight="32dp"
+        android:background="@drawable/chrono_shape"
+        android:text="Stream"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textViewScore"
+        app:layout_constraintRight_toLeftOf="@+id/buttonChrono" />
+
+    <TextView
+        android:id="@+id/textViewSetOne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:layout_marginRight="7dp"
+        android:text="@string/set_score"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textViewMatchOne"
+        app:layout_constraintRight_toLeftOf="@+id/buttonMinusScoreOne" />
+
+    <TextView
+        android:id="@+id/textViewMatchOne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:layout_marginRight="7dp"
+        android:text="@string/match_score"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textViewTeamTwoName"
+        app:layout_constraintRight_toLeftOf="@+id/buttonMinusSetScoreOne" />
+
+    <TextView
+        android:id="@+id/textViewSetTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:layout_marginRight="7dp"
+        android:text="@string/set_score"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textViewMatchTwo"
+        app:layout_constraintRight_toLeftOf="@+id/buttonMinusScoreTwo" />
+
+    <TextView
+        android:id="@+id/textViewMatchTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="7dp"
+        android:text="@string/match_score"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/buttonMinusSetScoreTwo" />
+
+</android.support.constraint.ConstraintLayout>

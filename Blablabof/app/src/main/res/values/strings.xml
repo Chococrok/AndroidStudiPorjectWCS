@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Blablabof</string>
+    <string name="action_settings">action settings</string>
+    <!--MainActivity-->
+    <string name="search_new_itinerary">Rechercher un nouvelle itinéraire</string>
+    <string name="propose_new_itinerary">proposer un nouvelle itinéraire</string>
+
+    <!--SearchItineraryActivity-->
+    <string name="departure">Départ</string>
+    <string name="destination">Destination</string>
+    <string name="date">date</string>
+    <string name="price">prix</string>
+    <string name="hour">heure</string>
+    <string name="search">Rechercher</string>
+
+    <!--SearchItineraryActivity-->
+    <string name="propose_this_itinerary">proposer cet itinéraire</string>
+
+    <!--AccountActivity-->
+    <string name="log_out">Se déconnecter</string>
+    <string name="sign_in">Se connecter</string>
+    <string name="sign_up">S\'inscrire</string>
+    <string name="email">Email</string>
+    <string name="password">Mot de passe</string>
+
+
+    <string name="toast_departure_destination_needed">Les champs "Départ" et "Destination" doivent être complétés</string>
+    <string name="all_field_required">Tout les champs doivent être remplis</string>
+    <string name="no_account_yet">Si tu n\'as pas encore de compte clique ici !</string>
+    <string name="sign_in_failed">échec de la connexion</string>
+    <string name="toast_sign_up_failed">échec de la création du profile</string>
+    <string name="loading">Chargement</string>
+    <string name="toast_sign_in_needed">Vous devez d\'abord vous connecter</string>
+    <string name="update">Mettre à jour</string>
+</resources>

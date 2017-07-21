@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="blablawild.fr.wcs.multiacvtivityquest.SubmitItineraryActivity"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/textViewDepartureSubmit"
+        android:text="@string/departure"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/editTextDeparture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="text" />
+
+
+    <TextView
+        android:id="@+id/textViewDestination"
+        android:text="@string/destination"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/editTextDestination"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="text"/>
+
+
+    <TextView
+        android:id="@+id/textViewPrice"
+        android:text="@string/price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/editTextPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"/>
+
+
+    <TextView
+        android:id="@+id/textViewDate"
+        android:text="@string/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/editTextDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:focusable="false"/>
+
+    <TextView
+        android:id="@+id/textViewHour"
+        android:text="@string/hour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/editTextHour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="time"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="bottom">
+
+        <Button
+            android:id="@+id/buttonSubmitSearch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/publish"
+            android:layout_gravity="bottom" />
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

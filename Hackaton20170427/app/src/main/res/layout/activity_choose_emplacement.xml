@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ConstraintLayoutGame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/game"
+    tools:context="com.wcs.hackaton20170427.ChooseEmplacement">
+
+
+    <LinearLayout
+        android:id="@+id/LinearLayoutGame"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:orientation="vertical"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/LinearLayoutBoat">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayoutResetFight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp">
+
+        <ImageButton
+            android:id="@+id/imageButtonReset"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            app:srcCompat="@drawable/tools" />
+
+        <ImageButton
+            android:id="@+id/imageButtonFight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            app:srcCompat="@drawable/target" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayoutBoat"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/LinearLayoutResetFight"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
+
+        <ImageButton
+            android:id="@+id/imageButtonSmallBoat"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/button_game"
+            app:srcCompat="@drawable/small_boat" />
+
+        <ImageButton
+            android:id="@+id/imageButtonBigBoat"
+            android:layout_width="71dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/button_game"
+            app:srcCompat="@drawable/big_boat1" />
+
+        <ImageButton
+            android:id="@+id/imageButtonBigBoat2"
+            android:layout_width="71dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/button_game"
+            app:srcCompat="@drawable/big_boat2" />
+
+        <ImageButton
+            android:id="@+id/imageButtonBigBoatL"
+            android:layout_width="96dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_game"
+            app:srcCompat="@drawable/l_boat" />
+
+        <ImageButton
+            android:id="@+id/imageButtonBigBoatU"
+            android:layout_width="98dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_game"
+            app:srcCompat="@drawable/u_boat" />
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

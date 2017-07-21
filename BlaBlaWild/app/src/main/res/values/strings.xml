@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">MultiAcvtivityQuest</string>
+    <string name="action_settings">Settings</string>
+    <string name="toast_autnetication_needed">"Tu dois d'abord t'authentifier."</string>
+    <string name="progress_dialog">Chargement</string>
+
+
+    <string name="research">Rechercher</string>
+    <string name="publish">Publier</string>
+    <string name="profil">Profile</string>
+
+    <string name="departure">Départ</string>
+    <string name="destination">Destination</string>
+    <string name="date">Date</string>
+    <string name="price">Prix</string>
+    <string name="hour">Heure</string>
+    <string name="euros">Euros</string>
+
+    <string name="toastResearch">Entrez les champs requis</string>
+    <string name="toast_new_trajet_done">Ton trajet a bien été créé.</string>
+    <string name="researchMain">RECHERCHER UN ITINERAIRE</string>
+    <string name="propose_an_itinerary">Proposer un trajet</string>
+    <string name="fleche">"  ==>  "</string>
+
+    <string name="first_name">Edward</string>
+    <string name="last_name">Marmoumou</string>
+
+    <!--activity_account-->
+    <string name="disconnection">Déconnexion</string>
+    <string name="edit">éditer mon profile</string>
+
+    <!--signup_activity-->
+    <string name="email">Email</string>
+    <string name="password">mot de passe</string>
+    <string name="connexion">Connexion</string>
+    <string name="auth_failed">\"entre une adresse email valide et un mot de passe d\'au moins 6 caractères \"</string>
+    <string name="username">Pseudo</string>
+    <string name="image_URL">Choisis ton image</string>
+    <string name="image_choosen">image OK!</string>
+
+    <!--signin_activity-->
+    <string name="sign_in">Identification</string>
+    <string name="sign_up">ou créer un compte</string>
+    <string name="validate">valider</string>
+
+</resources>

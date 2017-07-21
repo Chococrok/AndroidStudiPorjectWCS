@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Blablabof</string>
+    <string name="date">date</string>
+    <string name="departure">Departure</string>
+    <string name="destination">Destination</string>
+    <string name="hour">hour</string>
+    <string name="price">price</string>
+    <string name="propose_new_itinerary">submit a new itinerary</string>
+    <string name="propose_this_itinerary">submit this itinerary</string>
+    <string name="search">Search</string>
+    <string name="search_new_itinerary">Search a nex itinerary</string>
+    <string name="toast_departure_destination_needed">Departure and Destination are required</string>
+    <string name="all_field_required">all fields have to be completed</string>
+    <string name="action_settings">action settings</string>
+</resources>

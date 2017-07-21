@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "372789261462",
+    "firebase_url": "https://matterless-d587a.firebaseio.com",
+    "project_id": "matterless-d587a",
+    "storage_bucket": "matterless-d587a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:372789261462:android:3124a38b6f733689",
+        "android_client_info": {
+          "package_name": "matterless.fr.wcs.matterless"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "372789261462-mb3vbv0fmdmofqmo1d1obppiamnt8mhl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "matterless.fr.wcs.matterless",
+            "certificate_hash": "56ea975ed4d0186dce2d04e3fb9908d4f06b23c2"
+          }
+        },
+        {
+          "client_id": "372789261462-klr38fd425e10qfkhbpnihu2tqmt4b2n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSQvOb0A_jqXbnAcdQUr8erOyWvlHGaR0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "372789261462-klr38fd425e10qfkhbpnihu2tqmt4b2n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

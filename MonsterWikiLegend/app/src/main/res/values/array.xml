@@ -1,0 +1,17 @@
+<resources>
+
+    <string-array name="typeNameString">
+        <item></item>
+        <item>eau</item>
+        <item>feu</item>
+        <item>foudre</item>
+        <item>terre</item>
+        <item>lumiere</item>
+        <item>magie</item>
+        <item>metal</item>
+        <item>nature</item>
+        <item>mort</item>
+        <item>special</item>
+    </string-array>
+
+</resources>

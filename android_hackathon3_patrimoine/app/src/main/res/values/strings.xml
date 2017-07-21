@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Toulouse Monumentàs</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="comment">Commentaire</string>
+    <string name="photo">Photos</string>
+    <string name="Monuments">Monuments</string>
+    <string name="score">Score</string>
+    <string name="validate">Valider</string>
+    <string name="cancel">Annuler</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="action_settings">Settings</string>
+    <string name="decouvre_des_lieux_d_exceptions_toulousains_et_vote_pour_que_l_un_d_eux_est_la_chance_de_se_voir_attribuer_le_titre_de_patrimoine_mondial_de_l_unesco">Decouvre des lieux d\'exceptions toulousains et vote pour que l\'un d\'eux ai la chance de se voir attribuer le titre de patrimoine mondial de l\'UNESCO.</string>
+</resources>
